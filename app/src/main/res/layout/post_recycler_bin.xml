@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="5dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileDP"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/prabhas_profile"
+            app:civ_border_color="@color/instacenterclord"
+            app:civ_border_width="2.2dp" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/textcolor"
+            android:layout_gravity="center_vertical"
+            android:text="monty7498" />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:layout_weight="0.5">
+            <ImageView
+                android:id="@+id/menu"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu"
+                android:paddingLeft="17dp"
+                app:tint="@android:color/black" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/prabhas" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="8dp">
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/black"
+            android:padding="4dp"
+            android:src="@drawable/heart_1" />
+
+        <ImageView
+            android:id="@+id/comment"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/black"
+            android:src="@drawable/comment_1" />
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/black"
+            android:padding="4dp"
+            android:src="@drawable/send_1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/save"
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/save_1"
+                app:tint="@android:color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ranbir_profile"
+                    android:elevation="1dp"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/prabhas_profile"
+                    android:layout_marginLeft="-15dp"
+                    android:elevation="0.5dp"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/alia_profile"
+                    android:layout_marginLeft="-15dp"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="Liked by "
+                    android:gravity="center_vertical"/>
+                <TextView
+                    android:id="@+id/likes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="chirag052 and 100 others "
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                android:id="@+id/userNameincaptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="monty7498"
+                android:textColor="@color/textcolor"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/caption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share your connections"
+                android:textColor="@color/textcolor"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/viewallcomments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View all 200 comments"
+                android:textSize="12sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="alluarjunonline"
+                    android:textColor="@color/textcolor"
+                    android:textStyle="bold"
+                    android:id="@+id/commentusername"
+                    android:textSize="12sp"/>
+                <TextView
+                    android:id="@+id/commentFromUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mast pic"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginStart="8dp"
+                    android:textSize="12sp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/profileDP_belowcomment"
+                    android:src="@drawable/prabhas_profile"
+                   />
+                <TextView
+                    android:id="@+id/addcomment"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="Add a comment..."
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5 hours ago"
+                android:textSize="8sp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_photo"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/prabhas_profile"
+        android:layout_gravity="center_vertical"
+        app:civ_border_color="@color/instacenterclord"
+        app:civ_border_width="2.2dp" />
+
+    <TextView
+        android:id="@+id/itemTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/textcolor"
+        android:text="actorprabhas liked your profile post." />
+    <ImageView
+        android:id="@+id/my_profile_photo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ranbir_profile"/>
+
+
+
+</LinearLayout>
